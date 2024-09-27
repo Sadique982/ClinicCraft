@@ -83,6 +83,7 @@ export default function HealthcareServices() {
       name: service.name,
       description: service.description,
       price: service.price,
+      id: service.id,
     });
     setServiceToEditId(service.id);
     setIsDialogVisible(true);
